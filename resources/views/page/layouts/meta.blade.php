@@ -22,4 +22,9 @@
         gtag('config', 'UA-94034622-3');
     </script>
     <!-- /END GA -->
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
 </head>
